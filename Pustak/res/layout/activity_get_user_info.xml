@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backu"  
+      android:layout_gravity="center"
+       android:gravity="center"
+      
+    tools:context="com.example.nitklibraryapp1.GetUserInfo" >
+    
+
+     <Button
+         
+        android:id="@+id/bgetinfo"
+     
+        android:layout_height="wrap_content"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:background="#3B0B17"
+        android:textColor="#FFFFFF"   
+        android:alpha="0.70"      
+        android:text="getinfo" />
+     
+     <Button
+         
+        android:id="@+id/blogout"
+     
+        android:layout_height="wrap_content"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="200dp"
+        android:textSize="30sp"
+        android:background="#3B0B17"
+        android:textColor="#FFFFFF"   
+        android:alpha="0.70"      
+        android:text="logout" />
+     
+     
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width ="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backu"
+ 
+    tools:context="com.example.nitklibraryapp1.IssueUpdate" >
+
+      <Button
+        android:id="@+id/bissue"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:alpha="0.70"
+        android:background="#3B0B17"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="issue"
+        android:textColor="#FFFFFF"
+   
+        android:textSize="20sp" 
+        />
+     
+      <Button
+        android:id="@+id/bupdate"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:alpha="0.70"
+        android:background="#3B0B17"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="update"
+        android:textColor="#FFFFFF"
+        
+        android:textSize="20sp" 
+        />
+   
+      <Button
+        android:id="@+id/blogout"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:alpha="0.70"
+        android:background="#3B0B17"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="logout"
+        android:textColor="#FFFFFF"
+   
+        android:textSize="20sp" 
+        />
+    
+
+
+</LinearLayout>

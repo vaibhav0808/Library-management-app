@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width ="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backu"
+     tools:context="com.example.nitklibraryapp1.Getbooks" >
+    
+   <RelativeLayout 
+       android:layout_width ="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/tbookname"
+       android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Book Name"
+        android:background="#3B0B17"
+        android:alpha="0.60"         
+        android:textColorHint="#848484"
+        android:textSize="30sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/bbsearch"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentRight="true"
+        android:alpha="0.70"
+        android:background="#3B0B17"
+        android:gravity="center"
+        android:text="Search"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" 
+        />
+
+    <EditText
+        android:id="@+id/tauthor"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="120dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Author Name"
+        android:background="#3B0B17"
+        android:alpha="0.60"         
+        android:textColorHint="#848484"
+        android:textSize="30sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/basearch"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="120dp"
+        android:layout_alignParentRight="true"
+        android:alpha="0.70"
+        android:background="#3B0B17"
+        android:gravity="center"
+        android:text="Search"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+
+   </RelativeLayout>
+  
+</LinearLayout>

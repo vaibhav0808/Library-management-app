@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@drawable/backu"
+      android:orientation="vertical"
+  
+    tools:context="com.example.nitklibraryapp1.ASinup" >
+
+ 
+    <EditText
+        android:id="@+id/taname"
+        
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Name"
+        android:background="#3B0B17"
+        android:alpha="0.60"         
+        android:inputType="textPersonName"
+        android:textColorHint="#848484"
+        android:textSize="30sp" 
+        />
+
+    <EditText
+        android:id="@+id/tausername"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Username"
+        android:background="#3B0B17"
+        android:alpha="0.60"         
+        android:inputType="textPersonName"
+        android:textColorHint="#848484"
+        android:textSize="30sp" />
+    
+     <EditText
+        android:id="@+id/tapassword"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Password"
+        android:background="#3B0B17"
+        android:alpha="0.60"         
+        android:inputType="numberPassword"
+        android:textColorHint="#848484"
+        android:textSize="30sp" />
+     
+     <EditText
+        android:id="@+id/tapassworda"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Password"
+        android:background="#3B0B17"
+        android:alpha="0.60"         
+        android:inputType="numberPassword"
+        android:textColorHint="#848484"
+        android:textSize="30sp" />
+
+     <Button
+        android:id="@+id/baregister"
+        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:textSize="30sp"
+        android:background="#3B0B17"
+        android:textColor="#FFFFFF"   
+        android:alpha="0.70"      
+        android:text="Register" />
+     
+ 
+</LinearLayout>

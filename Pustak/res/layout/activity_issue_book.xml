@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width ="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backu"
+    tools:context="com.example.nitklibraryapp1.IssueBook" >
+
+      <EditText
+        android:id="@+id/tusername"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:alpha="0.60"
+        android:background="#3B0B17"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textColorHint="#848484"
+        android:textSize="30dp" >
+    </EditText>
+    
+    <Button         
+        android:id="@+id/bgetinfo"
+        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="30sp"
+        android:background="#3B0B17"
+        android:textColor="#FFFFFF"   
+        android:alpha="0.70"      
+        android:text="getinfo" />
+    <EditText
+        android:id="@+id/tbookname"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:alpha="0.60"
+        android:background="#3B0B17"
+        android:ems="10"
+        android:hint="bookname"
+        android:inputType="textPersonName"
+        android:textColorHint="#848484"
+        android:textSize="30dp" >
+    </EditText>
+   
+     
+    <Button         
+        android:id="@+id/bgetbookinfo"
+        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:background="#3B0B17"
+        android:textColor="#FFFFFF"   
+        android:alpha="0.70"      
+        android:text="BOok info" />
+   
+    <EditText
+        android:id="@+id/tbooknumber"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:alpha="0.60"
+        android:background="#3B0B17"
+        android:ems="10"
+        android:hint="booknumber"
+        android:inputType="number"
+        android:textColorHint="#848484"
+        android:textSize="30dp" >
+    </EditText>
+    
+       <Button            
+        android:id="@+id/bissuebook"
+        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:background="#3B0B17"
+        android:textColor="#FFFFFF"   
+        android:alpha="0.70"      
+        android:text="issue book" />
+    
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pustak</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_sinup">Sinup</string>
+    <string name="title_activity_jsonparser">JSONParser</string>
+    <string name="title_activity_getbooks">Getbooks</string>
+    <string name="title_activity_admin_login">AdminLogin</string>
+    <string name="title_activity_admin_sinup">AdminSinup</string>
+    <string name="title_activity_asinup">ASinup</string>
+    <string name="title_activity_alogin">ALogin</string>
+    <string name="title_activity_get_data_from_db">GetDataFromDB</string>
+    <string name="title_activity_show_book">ShowBook</string>
+    <string name="title_activity_show_book1">ShowBook1</string>
+    <string name="title_activity_update_book">UpdateBook</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_user_info">UserInfo</string>
+    <string name="title_activity_get_user_info">GetUserInfo</string>
+    <string name="title_activity_issue_update">IssueUpdate</string>
+    <string name="title_activity_issue_book">IssueBook</string>
+    <string name="title_activity_update_user_book">UpdateUserBook</string>
+
+</resources>

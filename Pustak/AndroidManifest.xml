@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nitklibraryapp1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.nitklibraryapp1.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".Sinup"
+            android:label="@string/title_activity_sinup" >
+        </activity>
+        <activity
+            android:name=".JSONParser"
+            android:label="@string/title_activity_jsonparser" >
+        </activity>
+        <activity
+            android:name=".Getbooks"
+            android:label="@string/title_activity_getbooks" >
+        </activity>
+        <activity
+            android:name=".AdminLogin"
+            android:label="@string/title_activity_admin_login" >
+        </activity>
+        <activity
+            android:name=".AdminSinup"
+            android:label="@string/title_activity_admin_sinup" >
+        </activity>
+        <activity
+            android:name=".ASinup"
+            android:label="@string/title_activity_asinup" >
+        </activity>
+        <activity
+            android:name=".ALogin"
+            android:label="@string/title_activity_alogin" >
+        </activity>
+        <activity
+            android:name=".GetDataFromDB"
+            android:label="@string/title_activity_get_data_from_db" >
+        </activity>
+        <activity
+            android:name=".ShowBook"
+            android:label="@string/title_activity_show_book" >
+        </activity>
+        <activity
+            android:name=".ShowBook1"
+            android:label="@string/title_activity_show_book1" >
+        </activity>
+        <activity
+            android:name=".UpdateBook"
+            android:label="@string/title_activity_update_book" >
+        </activity>
+        <activity
+            android:name=".Menu"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name=".UserInfo"
+            android:label="@string/title_activity_user_info" >
+        </activity>
+        <activity
+            android:name=".GetUserInfo"
+            android:label="@string/title_activity_get_user_info" >
+        </activity>
+        <activity
+            android:name=".IssueUpdate"
+            android:label="@string/title_activity_issue_update" >
+        </activity>
+        <activity
+            android:name=".IssueBook"
+            android:label="@string/title_activity_issue_book" >
+        </activity>
+        <activity
+            android:name=".UpdateUserBook"
+            android:label="@string/title_activity_update_user_book" >
+        </activity>
+    </application>
+
+</manifest>
